@@ -1,0 +1,27 @@
+Hello there!
+
+Begin the application by clicking Game, then Load Game,
+then navigate to the file which you would like to load.
+
+There is a help bar located in Tools that provides additional information.
+
+You can set configurations by clicking the configuration 
+menu item and you can set colors using the color bar in 
+the top right. 
+
+You can jump to any tick by using the Go To tool. You can 
+also go forward and backward by using the next and back buttons.
+
+You can save all ticks up to the current or save a range of ticks 
+by using save range.
+
+When you go forward through the game, cells that are alive for 
+consecutive ticks fade lighter and lighter. However, if you go 
+backwards, the opacity resets and the cells revert to their normal 
+RGB standard color.
+
+Configurations are saved upon application close inside 'src' folder.
+The application loads data from the _CONFIG_.txt file, do not 
+move it or edit its contents. It will save the first tick of the grid 
+you last had opened as well as the output file location and name, and 
+also the color of the grid.
